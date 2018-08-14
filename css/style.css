@@ -1,0 +1,67 @@
+/* gerais */
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: purple;
+}
+
+h1, h2{
+    text-align: center;
+    color: purple;
+}
+
+li{
+    padding: 10px;
+     }
+
+.ALL {
+    margin-left: 300px;
+
+}
+
+.parte1 {
+
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+    
+
+}
+.parte2{
+    display: inline-block;
+    text-align: left;
+    margin-left: 50px;
+}
+
+img {
+    width: 300px;
+
+}
+
+.btn_download {
+    display: block;
+    width: 250px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 auto; /*só funciona em elementos block*/
+    padding: 5px 10px ;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+
+.btn_sobre {
+    display: block;
+    width: 250px;
+    color: purple;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid purple;
+    margin: 0 auto; /*só funciona em elementos block*/
+    padding: 5px 10px ;
+    margin-top: 20px;
+    text-decoration: none;
+}
